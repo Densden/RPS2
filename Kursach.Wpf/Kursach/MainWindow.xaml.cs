@@ -12,6 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
+using System.IO;
 
 namespace Kursach
 {
@@ -19,10 +23,20 @@ namespace Kursach
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
+
+
     {
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void test1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+           
+        }
     }
 }
+        
+
+   
