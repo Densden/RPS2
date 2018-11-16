@@ -31,7 +31,8 @@ namespace Kursach
         {
             var login = "sergey";
             var password = "Mirage";
-            Test = new TestConnect(login,password);
+            var comand = "";
+            Test = new TestConnect(login,password,comand);
             this.DataContext = Test;
             InitializeComponent();
         }
@@ -44,7 +45,7 @@ namespace Kursach
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Test.SendCmd(command.Text);
-            var res = Test.GetAnswer();
+           ResultText.Text = Test.GetAnswer().Replace("\0", "");
         }
     }
 }
