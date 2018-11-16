@@ -16,6 +16,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.IO;
+using ConsoleTelnet;
 
 namespace Kursach
 {
@@ -23,17 +24,27 @@ namespace Kursach
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-
-
     {
+
+        public TestConnect Test { get; set; }
         public MainWindow()
         {
+            var login = "sergey";
+            var password = "Mirage";
+            Test = new TestConnect(login,password);
+            this.DataContext = Test;
             InitializeComponent();
         }
 
         private void test1_TextChanged(object sender, TextChangedEventArgs e)
         {
            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Test.SendCmd(command.Text);
+            var res = Test.GetAnswer();
         }
     }
 }
