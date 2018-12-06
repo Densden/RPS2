@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kursach"
         mc:Ignorable="d"
-        Title="avtiraz" Height="450" Width="800">
-    <Grid>
-        
+        Title="avtiraz" Height="340.36" Width="769.492">
+    <Grid Margin="0,0,48,92">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="348*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="365*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="79,86,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="249"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="79,163,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="249"/>
+        <Button Content="Button" Grid.Column="2" HorizontalAlignment="Left" Margin="51,120,0,0" VerticalAlignment="Top" Width="116" Height="43" Click="Button_Click"/>
+
     </Grid>
 </Window>
