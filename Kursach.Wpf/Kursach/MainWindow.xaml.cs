@@ -48,11 +48,11 @@ namespace Kursach
            ResultText.Text = Test.GetAnswer().Replace("\0", "");
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            avtiraz avtiraz = new avtiraz();
-            avtiraz.Show();
-        }
+        //private void Button_Click_1(object sender, RoutedEventArgs e)
+        //{
+        //    avtiraz avtiraz = new avtiraz();
+        //    avtiraz.Show();
+        //}
     }
 }
         
