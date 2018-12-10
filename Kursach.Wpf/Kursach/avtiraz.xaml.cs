@@ -22,13 +22,22 @@ namespace Kursach
         public avtiraz()
         {
             InitializeComponent();
+          
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+       
+       
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
+
+           
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
+        }
+
+        public void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+          
         }
     }
 }
