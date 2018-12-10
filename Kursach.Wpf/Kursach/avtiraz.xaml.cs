@@ -24,14 +24,15 @@ namespace Kursach
             InitializeComponent();
           
         }
-       
-       
+        
+        
         public void Button_Click(object sender, RoutedEventArgs e)
         {
-
-           
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+            Mini mini = new Mini();
+            mini.Show();
+            //MainWindow mainWindow = new MainWindow();
+            //mainWindow.Show();
+            
             this.Close();
         }
 

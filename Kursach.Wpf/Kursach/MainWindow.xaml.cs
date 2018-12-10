@@ -27,14 +27,14 @@ namespace Kursach
     {
 
         public TestConnect Test { get; set; }
-
+        
       
         public MainWindow()
         {
              
-            var login =  "sergey";
-            var password = "Mirage";
-            var comand = "";
+            string login =  "sergey";
+            string password = "Mirage";
+            string comand = "";
             Test = new TestConnect(login,password,comand);
             this.DataContext = Test;
             InitializeComponent();

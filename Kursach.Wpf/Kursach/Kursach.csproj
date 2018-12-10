@@ -55,14 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Addit.xaml.cs">
+      <DependentUpon>Addit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="avtiraz.xaml.cs">
       <DependentUpon>avtiraz.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mini.xaml.cs">
+      <DependentUpon>Mini.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sersh.xaml.cs">
+      <DependentUpon>Sersh.xaml</DependentUpon>
     </Compile>
     <Compile Include="tabl.xaml.cs">
       <DependentUpon>tabl.xaml</DependentUpon>
     </Compile>
     <Compile Include="TestConnect.cs" />
     <Compile Include="testping.cs" />
+    <Page Include="Addit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="avtiraz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -79,6 +92,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Mini.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sersh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="tabl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
