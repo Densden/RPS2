@@ -30,9 +30,6 @@ namespace Kursach
         {
             Mini mini = new Mini();
             mini.Show();
-            //MainWindow mainWindow = new MainWindow();
-            //mainWindow.Show();
-            
             this.Close();
         }
 
@@ -41,9 +38,6 @@ namespace Kursach
           
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
     }
 }

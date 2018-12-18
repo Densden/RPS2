@@ -29,5 +29,29 @@ namespace Kursach
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            delete delete = new delete();
+            delete.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Addit addit = new Addit();
+            addit.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            tabl tabl = new tabl();
+            tabl.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Sersh sersh = new Sersh();
+            sersh.Show();
+        }
     }
 }

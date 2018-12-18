@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace Kursach
 {
     /// <summary>
-    /// Логика взаимодействия для tabl.xaml
+    /// Логика взаимодействия для delete.xaml
     /// </summary>
-    public partial class tabl : Window
+    public partial class delete : Window
     {
-        public tabl()
+        public delete()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }

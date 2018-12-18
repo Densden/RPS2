@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kursach"
         mc:Ignorable="d"
-        Title="все устройства" Height="450" Width="800">
-    <Grid>
-        
+        Title="все устройства" Height="476.667" Width="754">
+    <Grid Margin="0,0,2,4">
+        <Label Content="все устройства" HorizontalAlignment="Left" Margin="28,15,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="358" Margin="28,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="706"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="28,41,0,0" TextWrapping="Wrap" Text="ip-adres" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="262,41,0,0" TextWrapping="Wrap" Text=" vender" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="614,41,0,0" TextWrapping="Wrap" Text=" status" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="497,41,0,0" TextWrapping="Wrap" Text=" version OC" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="146,41,0,0" TextWrapping="Wrap" Text="fizikal adres" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="380,41,0,0" TextWrapping="Wrap" Text="model" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="28,64,0,0" TextWrapping="Wrap" Text="192.168.9.200" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="146,64,0,0" TextWrapping="Wrap" Text="home" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="265,64,0,0" TextWrapping="Wrap" Text="cisco" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="380,64,0,0" TextWrapping="Wrap" Text="1921" VerticalAlignment="Top" Width="121"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="499,64,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="616,64,0,0" TextWrapping="Wrap" Text="ok" VerticalAlignment="Top" Width="118"/>
+        <Button Content="назад" HorizontalAlignment="Left" Margin="28,412,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
     </Grid>
 </Window>
