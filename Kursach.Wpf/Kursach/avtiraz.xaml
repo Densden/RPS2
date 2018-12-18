@@ -5,16 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kursach"
         mc:Ignorable="d"
-        Title="avtiraz" Height="274.36" Width="285.492">
+        Title="авторизация" Height="274.36" Width="285.492">
     <Grid Margin="0,0,11,6">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBox HorizontalAlignment="Left" Name="tex1" Height="38" Margin="10,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="249" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="40" Name="tex2" Margin="10,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="249"/>
-        <Button Content="go" HorizontalAlignment="Left" Margin="86,164,0,0" VerticalAlignment="Top" Width="116" Height="43" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Name="tex1" Height="38" Margin="10,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="249" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Name="tex2" Margin="10,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="249"/>
+        <Button Content="войти" HorizontalAlignment="Left" Margin="73,184,0,0" VerticalAlignment="Top" Width="116" Height="43" Click="Button_Click"/>
+        <Label Content="логин" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Width="122"/>
+        <Label Content="пароль" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" Width="85"/>
 
     </Grid>
 </Window>
