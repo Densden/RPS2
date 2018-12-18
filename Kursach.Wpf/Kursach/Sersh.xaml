@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kursach"
         mc:Ignorable="d"
-        Title="поиск" Height="450" Width="800">
+        Title="поиск" Height="216.667" Width="800">
     <Grid>
-        
+        <Label Content="физический адрес" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Width="206" Height="31"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="25,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="129"/>
+        <Button Content="поиск" HorizontalAlignment="Left" Margin="25,67,0,0" VerticalAlignment="Top" Width="129" Height="27"/>
+        <TextBox HorizontalAlignment="Left" Height="84" Margin="179,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="590"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="180,11,0,0" TextWrapping="Wrap" Text="ip-adres" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="669,11,0,0" TextWrapping="Wrap" Text=" status" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="571,11,0,0" TextWrapping="Wrap" Text=" version OC" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="278,11,0,0" TextWrapping="Wrap" Text="fizikal adres" VerticalAlignment="Top" Width="101"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="474,11,0,0" TextWrapping="Wrap" Text="model" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="180,33,0,0" TextWrapping="Wrap" Text="192.168.9.200" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="278,33,0,0" TextWrapping="Wrap" Text="home" VerticalAlignment="Top" Width="101"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="378,33,0,0" TextWrapping="Wrap" Text="cisco" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="474,33,0,0" TextWrapping="Wrap" Text="1921" VerticalAlignment="Top" Width="101"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="573,33,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="670,33,0,0" TextWrapping="Wrap" Text="ok" VerticalAlignment="Top" Width="99"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="378,11,0,0" TextWrapping="Wrap" Text=" vender" VerticalAlignment="Top" Width="97"/>
+        <Button Content="назад" HorizontalAlignment="Left" Margin="25,134,0,0" VerticalAlignment="Top" Width="102" Height="35" Click="Button_Click"/>
+
     </Grid>
 </Window>

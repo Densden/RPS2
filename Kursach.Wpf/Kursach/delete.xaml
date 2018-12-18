@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kursach"
         mc:Ignorable="d"
-        Title="delete" Height="450" Width="800">
+        Title="удаление" Height="192" Width="234">
     <Grid>
-        
+        <Button Content="удалить" HorizontalAlignment="Left" Margin="128,100,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Content="назад" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="43,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="127"/>
+        <Label Content="ip adres" HorizontalAlignment="Left" Margin="43,10,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

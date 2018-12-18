@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kursach"
         mc:Ignorable="d"
-        Title="добавление" Height="450" Width="800">
+        Title="добавление" Height="269" Width="356">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="194,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="194,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="194,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ip adres" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="fizical adres" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="vender" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="model" HorizontalAlignment="Left" Margin="194,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="OC version" HorizontalAlignment="Left" Margin="194,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="time to chek" HorizontalAlignment="Left" Margin="194,140,0,0" VerticalAlignment="Top"/>
+        <Button Content="добавить" HorizontalAlignment="Left" Margin="195,208,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="назад" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+
     </Grid>
 </Window>
